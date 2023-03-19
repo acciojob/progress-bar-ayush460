@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circles {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.circle.active {
+  background-color: #ccc;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 16px;
+}
